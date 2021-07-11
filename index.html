@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Bitt2 Fitness </title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('training.jpg');
+        height: 2555px;
+    }
+
+    .left {
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+    }
+
+    .mid {
+        /* border: 2px solid green; */
+        width: 33%;
+        margin: 12px auto;
+        display: block;
+    }
+
+    .right {
+        /* border: 2px solid yellow; */
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 20px;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: white;
+        padding: 24px 10px;
+        text-decoration: none;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: red;
+        text-decoration: underline;
+    }
+
+    .left img {
+        width: 100px;
+    }
+
+    .left div {
+        line-height: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .btn {
+        margin: 4px 3px;
+        padding: 2px 6px;
+        background-color: rosybrown;
+        color: white;
+        border-radius: 6px;
+        border: 2px solid #17ad15;
+    }
+
+    .btn:hover {
+        color: red;
+        text-decoration: underline;
+    }
+
+    .contanier {
+        border: 2px solid white;
+        margin: 98px 35px;
+        padding: 29px 22px;
+        width: 33%;
+        border-radius: 18px;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 256px;
+        padding: 10px;
+        margin: 3px auto;
+        border: 2px solid #8BC34A;
+        border-radius: 22px;
+    }
+    .contanier div button{
+        text-align: center;
+        display: block;
+        margin: 8px auto;
+        width: 60%;
+        padding: 6px 6px;
+    }
+    .contanier h3{
+        text-align: center;
+
+    }
+    .contanier{
+        display: block;
+        margin: 150px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="logojim.jpg" alt="">
+            <div class="logo">Bitt2 Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li> <a href="#">Home</a> </li>
+                <li> <a href="#">About Us</a> </li>
+                <li> <a href="#">Fitness Calculator</a> </li>
+                <li> <a href="#">Contact Us</a> </li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <button class="btn">
+                Email us Know
+            </button>
+            <button class="btn">Call Us Know</button>
+        </div>
+    </header>
+    <div class="contanier">
+        <h3>Join the Best gym of Indore Now</h3>
+        <form action="no action.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Locality">
+            </div>
+           <div>
+
+               <button class="btn">Submit</button>
+           </div>
+           <div>
+
+               <button type="reset" class="btn"> RESET</button>
+           </div>
+        </form>
+    </div>
+</body>
+
+</html>
